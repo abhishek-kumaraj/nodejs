@@ -7,3 +7,6 @@
 
 console.log(__filename);
 console.log(__dirname);
+setInterval(() => {
+    console.log('running');
+}, 1000);
