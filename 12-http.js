@@ -1,7 +1,7 @@
 // http module
 // building simple server using it
 
-const http = require('http')
+const http = require('http') // importing http module and assign it to http variable
 
 const server = http.createServer((req,res)=>{
     if(req.url === '/home'){
