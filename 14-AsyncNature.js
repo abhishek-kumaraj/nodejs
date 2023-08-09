@@ -1,13 +1,13 @@
 console.log('start')
 
-// time comsuming code is run at the end of imediate code execution
-// offload this if it is time consuming
+// time comsuming code runs at the end while immediate code execute first
+// offload this if as it is time consuming
 setTimeout(()=>{ // used for scheduling a function to be executed after a certain delay
     console.log('setTimeout executed')
 
 }, 5000) // this is the delay amount in milliseconds
 
-// imediate code is run first 
+// imediate code runs first 
 console.log('end')
 console.log('end')
 console.log('end')

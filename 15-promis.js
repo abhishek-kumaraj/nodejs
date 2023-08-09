@@ -1,4 +1,4 @@
-const {readFile,writeFile}= require('fs').promises // imporint readFile function from fs module
+const {readFile,writeFile}= require('fs').promises // imporint readFile and writeFile function from fs module
 // const util = require('util')
 // const readFilePromise = util.promisify(readFile)
 // const writeFilePromise = util.promisify(writeFile)
